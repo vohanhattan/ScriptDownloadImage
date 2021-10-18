@@ -11,7 +11,7 @@ this code helps you to download image by url of csv file using PYTHON
 
 - notice line 14 in my code please edit (image_id) to the image name in your csv file
 
-- Finally to run type command:
+- Finally to run type command as administration:
  
  $ python get_images.py [name csv file]
  
