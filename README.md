@@ -1,4 +1,4 @@
-# ScriptDownloadImage
+# Download image from url csv github
 this code helps you to download image by url of csv file using PYTHON
 
 # Some notes and parameters to edit before running
