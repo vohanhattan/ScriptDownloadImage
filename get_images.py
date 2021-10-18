@@ -6,7 +6,7 @@ from urllib.request import urlretrieve
 
 csv_filename = sys.argv[1]
 
-with open(csv_filename+".csv".format(csv_filename), 'r') as csv_file:
+with open(csv_filename+".csv".format(csv_filename), 'r',encoding="ISO-8859-1") as csv_file:
     for line in reader(csv_file):
         if os.path.isfile("images/" + line[0] + ".jpg"):
             print ("Image skipped for {0}".format(line[0]))
