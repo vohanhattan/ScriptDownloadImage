@@ -17,7 +17,7 @@ this code helps you to download image by url of csv file using PYTHON
  
 for example my csv file MoviePoster.csv
 
-  $ python get_images.py MoviePoster
+  ```python get_images.py MoviePoster```
   
   # It is very useful to use this code to download movie posters from csv files
   
